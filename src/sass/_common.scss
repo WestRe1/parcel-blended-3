@@ -1,1 +1,49 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+    --background-color-btn: #28A745;
+    --primary-background-color-section: #28A745 --secondary-background-color-section:#0284D0;
+    --background-color-footer: #333333;
+
+    --primary-font-color: #333333;
+    --secondary-font-color: #E9E9E9;
+    --hover-nav: #28A745;
+    --white-font-color: #FFFFFF;
+
+    --fz-title: 38px;
+    --fz-subtitle: 20px;
+    --fz-text: 18px;
+    --fz-btn-text: 18px;
+    --fz-nav-text: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1360px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.list {
+    list-style: none;
+}
